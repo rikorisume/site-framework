@@ -32,5 +32,6 @@ jobs:
         # If you're changing the branch from main, 
         # also change the `main` in `refs/heads/main` 
         # below accordingly.
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./public
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
