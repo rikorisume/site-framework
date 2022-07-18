@@ -1,3 +1,43 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://github.com/rikorisume/"
+languageCode = "en-us"
+title = "rikorisume"
+theme = "hugo-ink"
+paginate = 10
+
+copyright = "© Copyright rikorisume"
+
+pygmentsstyle = "vs"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+[params]
+    subtitle = "rikorisume, network memories"
+
+    # Optional 64x64 avatar image.
+    avatar = "https://avatars.githubusercontent.com/u/109015678?v=4"
+
+    # Content types to disable Disqus on.
+    disableDisqusTypes = ["page"]
+
+    featherIconsCDN = false
+
+    mode = "auto" # "dark" or "auto"
+    # customCSS = "css/custom.css"  # Custom CSS applied to default styles.
+    # customDarkCSS = "css/custom-dark.css"  # Custom styles applied to dark mode css.
+    # customJS = ["js/custom.js", "js/custom1.js"]  # Custom JS scripts.
+
+# Nav.
+[[menu.main]]
+name = "Blog"
+url = "/blog"
+weight = 1
+
+[[menu.main]]
+name = "WASM"
+url = "/wasm"
+weight = 2
+
+[[params.social]]
+name = "Github"
+icon = "github"
+url = "https://github.com/rikorisume"
