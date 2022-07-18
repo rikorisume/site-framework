@@ -1,4 +1,4 @@
-baseURL = "https://github.com/rikorisume/site-framework/"
+baseURL = "https://rikorisume.github.io/site-framework/"
 languageCode = "en-us"
 title = "rikorisume"
 theme = "hugo-ink"
