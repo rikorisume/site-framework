@@ -1,4 +1,4 @@
-baseURL = "https://github.com/rikorisume/site-framework/"
+baseURL = "https://rikorisume.github.io/site-framework/"
 languageCode = "en-us"
 title = "rikorisume"
 theme = "hugo-ink"
@@ -41,3 +41,8 @@ weight = 2
 name = "Github"
 icon = "github"
 url = "https://github.com/rikorisume"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
